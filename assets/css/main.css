@@ -1,0 +1,26 @@
+body {
+  margin: 20px;
+ 
+}
+
+#output {
+/*este modificas el tamaño de el video*/
+ width: 800px;
+height: 400px;
+    
+    /*
+  width: auto;
+  height: 100%;
+    */
+  background: black;
+  -webkit-transform: scale(-1, 1);
+}
+
+.btn {
+  margin-bottom: 20px !important;
+}
+
+canvas,
+#video-controls {
+  display: none;
+}
